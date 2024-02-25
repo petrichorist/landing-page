@@ -21,26 +21,26 @@ body {
 	text-align: center;
 }
 
-#nav-logo,
-#landing-logo {
+.nav-logo,
+.landing-logo {
 	font-weight: 900;
 }
 
-#links,
-#landing-para {
+.links,
+.landing-para {
 	font-size: 1.9rem;
 	font-weight: 300;
 }
 
-#links {
+.links {
 	gap: 2rem;
 }
 
-#nav-logo {
+.nav-logo {
 	font-size: 2.5rem;
 }
 
-#landing-logo {
+.landing-logo {
 	font-size: 4rem;
 }
 
@@ -90,23 +90,25 @@ ul {
 	gap: 10rem
 }
 
-#landing-para {
+.landing-para {
 	width: 900px;
 }
 
-#placeholder {
+.placeholder {
 	background-color: #c4c4c47a;
 	height: 400px;
 	width: 800px;
 }
 
-#sign-up {
+.landing-btn,
+.cta-btn {
 	background-color: #3882F6;
+  color: #FFFFFF;
 	border: none;
-	border-radius: 1.2rem;
+	border-radius: 10px;
 	font-size: 2rem;
 	font-weight: 600;
-	padding: 15px 45px;
+	padding: 15px 50px;
 }
 
 .info {
@@ -119,31 +121,101 @@ ul {
 	gap: 2rem;
 }
 
-#info-image {
+.cards li {
+	width: 300px;
+	color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-image {
 	width: 260px;
 	height: 260px;
 	border-radius: 20px;
-	outline: solid #057be2c6 5px
+	outline: solid #057be2c6 5px;
 }
 
 .img-text {
 	color: #1F2937;
-	display: flex;
-	text-align: justify;
+  font-size: 1.3rem;
+  width: 15rem;
 }
 
-.cards li {
-	width: 300px;
-	color: #000000;
+.quote {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  background-color: #E5E7EB;
+  margin-bottom: -70px;
+}
+
+.quote-text {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  text-align: justify;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.quote-text,
+.quote-author {
+  width: 1000px;
+  color: #000000;
+}
+
+.cta-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+	height: 50vh;
+	text-align: justify;
+	gap: 10rem
+}
+
+.cta-sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: #3882F6;
+  border-radius: 8px;
+  width: 1000px;
+  padding: 2rem;
+}
+
+.cta-header {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.cta-subtext {
+  margin-top: -20px;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  outline: solid #ffffff 3px;
 }
 
 footer {
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #1F2937;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 8px;
-  padding: 14px 0 28px;
+  padding: 2rem 0;
   text-align: center;
 }
