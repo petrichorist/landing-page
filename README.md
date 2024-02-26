@@ -1,2 +1,2 @@
 # landing-page
-bruh
+Landing page written in CSS and HTML
