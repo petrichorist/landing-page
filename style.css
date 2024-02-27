@@ -44,6 +44,7 @@ body {
 
 .landing-logo {
 	font-size: 4rem;
+  margin-bottom: 2%;
 }
 
 .info-header {
@@ -84,17 +85,20 @@ ul {
 
 .landing {
 	display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 	align-items: center;
 	padding: 1.8rem;
 	min-height: 90vh;
 	text-align: justify;
-	gap: 10rem
+	gap: 10rem;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .landing-para {
 	width: 900px;
+  margin: 0 0 6% 0;
 }
 
 .placeholder {
@@ -179,8 +183,8 @@ ul {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 	height: 50vh;
-	text-align: justify;
 	gap: 10rem
 }
 
