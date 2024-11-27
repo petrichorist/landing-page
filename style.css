@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inter';
-  src: url('./fonts/inter-regular.ttf') format('truetype'),
+  src: url('./fonts/inter-regular.ttf');
 }
 
 *, *::before, *::after {
