@@ -32,7 +32,7 @@ body {
 
 .links,
 .landing-para {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-weight: 300;
 }
 
@@ -106,7 +106,7 @@ ul {
 .placeholder {
   background-color: #c4c4c47a;
   height: 400px;
-  width: 800px;
+  width: 633;
 }
 
 .landing-btn,
